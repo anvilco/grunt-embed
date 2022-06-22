@@ -1,9 +1,9 @@
 {
-  "name": "grunt-embed",
-  "version": "0.2.1",
+  "name": "@anvilco/grunt-embed",
+  "version": "0.0.1",
   "description": "Grunt plugin to convert external scripts and stylesheets into embedded ones.",
-  "homepage": "https://github.com/callumlocke/grunt-embed",
-  "bugs": "https://github.com/callumlocke/grunt-embed/issues",
+  "homepage": "https://github.com/anvilco/grunt-embed",
+  "bugs": "https://github.com/anvilco/grunt-embed/issues",
   "author": {
     "name": "Callum Locke",
     "url": "https://github.com/callumlocke"
@@ -14,7 +14,7 @@
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/callumlocke/grunt-embed.git"
+    "url": "https://github.com/anvilco/grunt-embed.git"
   },
   "licenses": [
     {
@@ -22,7 +22,7 @@
     }
   ],
   "dependencies": {
-    "resource-embedder": "~0.2.1"
+    "@anvilco/resource-embedder": "^0.0.4"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

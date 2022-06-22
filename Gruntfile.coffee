@@ -13,7 +13,7 @@ module.exports = (grunt) ->
 
     clean:
       tests: ['tmp']
-    
+
     nodeunit:
       tests: ['test/*_test.coffee']
 
